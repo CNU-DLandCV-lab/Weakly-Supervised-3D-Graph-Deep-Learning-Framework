@@ -1,5 +1,5 @@
 # Weakly-Supervised 3D Graph Deep Learning Framework 
-The code in this toolbox implements the "Graph Convolutional Networks for Hyperspectral Image Classification". More specifically, it is detailed as follow.
+The code in this toolbox implements the "A Weakly Supervised Graph Deep Learning Framework for Point Cloud Registration". More specifically, it is detailed as follow.
 
 
 # Description
