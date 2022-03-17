@@ -32,12 +32,14 @@ Please kindly cite the papers if this code is useful and helpful for your resear
 Sun, L., Zhang, Z., Zhong, R., Chen, D., Zhang, L., Zhu, L., ... & Wangc, Y. (2022). A Weakly Supervised Graph Deep Learning Framework for Point Cloud Registration. IEEE Transactions on Geoscience and Remote Sensing.
 
 ```
-    @ARTICLE{sun2021graph,\<br>    title={A Weakly Supervised Graph Deep Learning Framework for Point Cloud Registration},\<br>     author={Sun, Lan and Zhang, Zhenxin and Zhong, Ruofei and Chen, Dong and Zhang, Liqiang and Zhu, Lin and Wang, Qiang and Wangb, Guo and Zou, Jianjun and Wangc, Yu},\<br>
-    journal={IEEE Transactions on Geoscience and Remote Sensing}, \<br>
-  year={2022},\<br>
-  volume={},\<br>
-  number={},\<br>
-  pages={1-1},\<br>
-  doi={10.1109/TGRS.2022.3145474}} 
+@ARTICLE{sun2021graph,
+    title={A Weakly Supervised Graph Deep Learning Framework for Point Cloud Registration},
+    author={Sun, Lan and Zhang, Zhenxin and Zhong, Ruofei and Chen, Dong and Zhang, Liqiang and Zhu, Lin and Wang, Qiang and Wangb, Guo and Zou, Jianjun and Wangc, Yu},
+    journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+    year={2022},
+    volume={},
+    number={},
+    pages={1-1},
+    doi={10.1109/TGRS.2022.3145474}} 
   ```
 #### We will release the code as soon as possible
