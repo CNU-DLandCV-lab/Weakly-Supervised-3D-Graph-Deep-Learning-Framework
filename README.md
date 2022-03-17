@@ -24,7 +24,7 @@ You need to build the triplet training set in advance by following the paper or 
 Start training:  ` python train_graph.py ` 
 
 # Testing
-To evaluate trained model, you may use  `python test_graph.py` 
+To evaluate trained model, you may use:  `python test_graph.py` 
 
 
 # Citation
