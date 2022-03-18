@@ -37,10 +37,6 @@ Sun, L., Zhang, Z., Zhong, R., Chen, D., Zhang, L., Zhu, L., ... & Wangc, Y. (20
     title={A Weakly Supervised Graph Deep Learning Framework for Point Cloud Registration},
     author={Sun, Lan and Zhang, Zhenxin and Zhong, Ruofei and Chen, Dong and Zhang, Liqiang and Zhu, Lin and Wang, Qiang and Wangb, Guo and Zou, Jianjun and Wangc, Yu},
     journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-    year={2022},
-    volume={},
-    number={},
-    pages={1-1},
-    doi={10.1109/TGRS.2022.3145474}} 
+    year={2022}} 
   ```
 
