@@ -1,7 +1,7 @@
 import os
 import sys
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="2"
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.getcwd()
 BASE_DIR = os.path.dirname("__file__")
 sys.path.append(BASE_DIR)
