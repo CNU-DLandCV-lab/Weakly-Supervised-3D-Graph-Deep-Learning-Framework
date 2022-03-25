@@ -51,8 +51,8 @@ KeyPoint=256
 nms_radius=0.5
 min_response_ratio=1e-2
 NUM=100
-cloud1="/data/slan/data/data_test_cloud/gazaba/Hokuyo_0.csv"
-cloud2="/data/slan/data/data_test_cloud/gazaba/Hokuyo_1.csv"
+cloud1="/data/data_test_cloud/gazaba/Hokuyo_0.csv"
+cloud2="/data/data_test_cloud/gazaba/Hokuyo_1.csv"
 
 def chevb_model(xyz, points, npoint, radius, nsample,scope ,mlp, bn_decay,output_dim,bn=True, pooling='max',is_training=True,k=5):
     with tf.variable_scope(scope) as sc:
@@ -323,7 +323,7 @@ def eval():
         config.allow_soft_placement = True
         config.log_device_placement = False
         sess = tf.Session(config=config)
-        saver.restore(sess, '/data/slan/code/registration_pointnet_graph/gazaba/4096/log/graph_2.ckpt')
+        saver.restore(sess, '/data/code/registration_pointnet_graph/gazaba/4096/log/graph_2.ckpt')
         
     ops = {'pointclouds_pl': pointclouds_pl,
                'is_training_pl': is_training_pl,
