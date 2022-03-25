@@ -13,7 +13,7 @@ We also use MATLAB scripts for evaluation and processing of data.
 
 # Prerequisites
 
-Before using the model, you first need to compile the customized tf_ops in the folder tf_ops (we use the customized grouping and sampling ops from PointNet++).
+Before using the model, you first need to compile the customized tf_ops in the folder tf_ops (we use the customized grouping, sampling and interpolation ops from PointNet++).
 
 Check and execute tf_xxx_compile.sh under each subfolder. Update the python and nvcc file if necessary. The scripts has been updated for TF1.4, so if you're using TF version < 1.4, refer to the original script provided with PointNet++ for compilation.
 
