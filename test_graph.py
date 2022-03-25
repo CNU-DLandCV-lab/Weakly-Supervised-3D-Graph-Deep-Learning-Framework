@@ -539,13 +539,11 @@ if __name__=='__main__':
     #evaluation
     xyz1, feature1, xyz2, feature2, xyz_nms1, xyz_nms2 = eval()
 
-    #save keypoints
     layer1 = pd.DataFrame(xyz_nms1)
     layer2 = pd.DataFrame(xyz_nms2)
     layer1.to_csv('keypoint1.txt')
     layer2.to_csv('keypoint2.txt')
-
-
+    
     xyz1_can = np.concatenate(xyz1)
     feature1_can = np.concatenate(feature1)
     xyz2_can = np.concatenate(xyz2)
