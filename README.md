@@ -19,12 +19,12 @@ Check and execute tf_xxx_compile.sh under each subfolder. Update the python and 
 
 # Training
 #### Preparation of data
-You need to build the training set in advance by following the paper or other methods. 
+To prepare the dataset, you may use: `python data_prepare.py` 
 #### Training
-Start training:  `python train_graph.py` 
+Start training: `python train_graph.py` 
 
 # Testing
-To evaluate trained model, you may use:  `python test_graph.py` 
+To evaluate trained model, you may use: `python test_graph.py` 
 
 
 # Citation
