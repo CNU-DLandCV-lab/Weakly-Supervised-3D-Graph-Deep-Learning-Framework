@@ -135,8 +135,8 @@ float* voxel_grid_orgin_x, float* voxel_grid_orgin_y, float* voxel_grid_orgin_z,
 
 
 for index in range(1,45):
-    data_registrated=pd.read_csv(r"/data/zjianjun/model2021/zoulang/global_frame/"+"PointCloud"+str(index)+".csv",sep=',')
-    data_befor_registrate=pd.read_csv(r"/data/zjianjun/model2021/zoulang/local_frame/"+"Hokuyo_"+str(index)+".csv",sep=',')
+    data_registrated=pd.read_csv(r"/data/global_frame/"+"PointCloud"+str(index)+".csv",sep=',')
+    data_befor_registrate=pd.read_csv(r"/data/local_frame/"+"Hokuyo_"+str(index)+".csv",sep=',')
     print("PointCloud"+str(index)+".csv")
     data_registrated=data_registrated[data_registrated.columns[1:4]]
     data_befor_registrate=data_befor_registrate[data_befor_registrate.columns[1:4]]
