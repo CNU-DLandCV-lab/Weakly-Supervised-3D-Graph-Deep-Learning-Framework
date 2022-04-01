@@ -18,8 +18,7 @@ Before using the model, you first need to compile the customized tf_ops in the f
 Check and execute tf_xxx_compile.sh under each subfolder. Update the python and nvcc file if necessary. The scripts has been updated for TF1.4, so if you're using TF version < 1.4, refer to the original script provided with PointNet++ for compilation.
 
 # Training
-#### Preparation of data
-To prepare the dataset, you may use: `python data_prepare.py` 
+ 
 #### Training
 Start training: `python train_graph.py` 
 
