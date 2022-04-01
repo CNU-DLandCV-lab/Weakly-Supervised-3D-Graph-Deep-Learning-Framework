@@ -27,8 +27,8 @@ print (device_lib.list_local_devices())
 from tensorflow.python.client import device_lib
 
 #Inputs and Parameters
-bas_dir=r"/data/slan/data/train_data/"
-file_list=os.listdir(r"/data/slan/data/train_data/")
+bas_dir=r"/data/train_data/"
+file_list=os.listdir(r"/data/train_data/")
 def load_h5(h5_filename):
     f = h5py.File(h5_filename,'r')
     data_set1 = f['s_1']
